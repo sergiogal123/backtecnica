@@ -1,0 +1,11 @@
+D:\Prueba sodexo\Prueba\Factura\FacturaDto\bin\Release\FacturaDto.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDto\bin\Release\FacturaDto.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaDto\obj\Release\FacturaDto.csprojAssemblyReference.cache
+D:\Prueba sodexo\Prueba\Factura\FacturaDto\obj\Release\FacturaDto.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDto\obj\Release\FacturaDto.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDto\bin\Release\FacturaDto.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDto\bin\Release\FacturaDto.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDto\obj\Release\FacturaDto.csproj.AssemblyReference.cache
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDto\obj\Release\FacturaDto.csproj.CoreCompileInputs.cache
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDto\obj\Release\FacturaDto.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDto\obj\Release\FacturaDto.pdb

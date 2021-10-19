@@ -1,0 +1,23 @@
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Release\FacturaBusiness.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Release\FacturaBusiness.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDal.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDto.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDal.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDal.dll.config
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDto.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.csprojAssemblyReference.cache
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.csproj.CopyComplete
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\bin\Release\FacturaBusiness.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\bin\Release\FacturaBusiness.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDal.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDto.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDal.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDal.dll.config
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\bin\Release\FacturaDto.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.csproj.AssemblyReference.cache
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.csproj.CoreCompileInputs.cache
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.csproj.CopyComplete
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaBusiness\obj\Release\FacturaBusiness.pdb

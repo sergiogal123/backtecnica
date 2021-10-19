@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PruebaTecnica" Class="ModeloFacturaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=PruebaTecnica;Persist Security Info=True;User ID=user_app" SettingsObjectName="FacturaDal.Properties.Settings" SettingsPropertyName="PruebaTecnicaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Facturas" Member="Facturas">
+    <Type Name="Facturas">
+      <Column Name="IdFactura" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NumeroFactura" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TipodePago" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DocumentoCliente" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NombreCliente" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Descuento" Type="System.Decimal" DbType="Decimal(2,2)" CanBeNull="true" />
+      <Column Name="IVA" Type="System.Decimal" DbType="Decimal(2,2)" CanBeNull="true" />
+      <Column Name="TotalDescuento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalImpuesto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Facturas_DetalleFactura" Member="DetalleFactura" ThisKey="IdFactura" OtherKey="IdFactura" Type="DetalleFactura" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DetalleFactura" Member="DetalleFactura">
+    <Type Name="DetalleFactura">
+      <Column Name="IdFactura" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdProducto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ValorUnitario" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Facturas_DetalleFactura" Member="Facturas" ThisKey="IdFactura" OtherKey="IdFactura" Type="Facturas" IsForeignKey="true" />
+      <Association Name="Productoo_DetalleFactura" Member="Productoo" ThisKey="IdProducto" OtherKey="IdProducto" Type="Productoo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Productoo" Member="Productoo">
+    <Type Name="Productoo">
+      <Column Name="IdProducto" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Producto" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Association Name="Productoo_DetalleFactura" Member="DetalleFactura" ThisKey="IdProducto" OtherKey="IdProducto" Type="DetalleFactura" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_creaDet" Method="sp_creaDet">
+    <Parameter Name="IdFactura" Parameter="idFactura" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IdProducto" Parameter="idProducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ValorUnit" Parameter="valorUnit" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_creaDetResult">
+      <Column Name="Result" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_creaProducto" Method="sp_creaProducto">
+    <Parameter Name="Producto" Parameter="producto" Type="System.String" DbType="VarChar(60)" />
+    <ElementType Name="sp_creaProductoResult">
+      <Column Name="Result" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_delDetalle" Method="sp_delDetalle">
+    <Parameter Name="IdFactura" Parameter="idFactura" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_delDetalleResult">
+      <Column Name="Result" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_delProducto" Method="sp_delProducto">
+    <Parameter Name="IdProducto" Parameter="idProducto" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_editFactura" Method="sp_editFactura">
+    <Parameter Name="IdFactura" Parameter="idFactura" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NumeroFactura" Parameter="numeroFactura" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Fecha" Parameter="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="TipodePago" Parameter="tipodePago" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="Cedula" Parameter="cedula" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="Subtotal" Parameter="subtotal" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Descuento" Parameter="descuento" Type="System.Decimal" DbType="Decimal(2,2)" />
+    <Parameter Name="IVA" Parameter="iVA" Type="System.Decimal" DbType="Decimal(2,2)" />
+    <Parameter Name="TotalDescuento" Parameter="totalDescuento" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TotalImpuesto" Parameter="totalImpuesto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Total" Parameter="total" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_editFacturaResult">
+      <Column Name="Result" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_editProducto" Method="sp_editProducto">
+    <Parameter Name="IdProducto" Parameter="idProducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Producto" Parameter="producto" Type="System.String" DbType="VarChar(60)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_getFacturas" Method="sp_getFacturas">
+    <ElementType Name="sp_getFacturasResult">
+      <Column Name="IdFactura" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumeroFactura" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TipodePago" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DocumentoCliente" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NombreCliente" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Descuento" Type="System.Decimal" DbType="Decimal(2,2)" CanBeNull="true" />
+      <Column Name="IVA" Type="System.Decimal" DbType="Decimal(2,2)" CanBeNull="true" />
+      <Column Name="TotalDescuento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalImpuesto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_getFactbyId" Method="sp_getFactbyId">
+    <Parameter Name="IdFactura" Parameter="idFactura" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_getFactbyIdResult">
+      <Column Name="IdFactura" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumeroFactura" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="TipodePago" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DocumentoCliente" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NombreCliente" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="Subtotal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Descuento" Type="System.Decimal" DbType="Decimal(2,2)" CanBeNull="true" />
+      <Column Name="IVA" Type="System.Decimal" DbType="Decimal(2,2)" CanBeNull="true" />
+      <Column Name="TotalDescuento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalImpuesto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_delFactura" Method="sp_delFactura">
+    <Parameter Name="IdFactura" Parameter="idFactura" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_delFacturaResult">
+      <Column Name="Result" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_creaFactura" Method="sp_creaFactura">
+    <Parameter Name="NumeroFactura" Parameter="numeroFactura" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Fecha" Parameter="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="TipodePago" Parameter="tipodePago" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="Cedula" Parameter="cedula" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="Subtotal" Parameter="subtotal" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Descuento" Parameter="descuento" Type="System.Decimal" DbType="Decimal(4,2)" />
+    <Parameter Name="IVA" Parameter="iVA" Type="System.Decimal" DbType="Decimal(4,2)" />
+    <Parameter Name="TotalDescuento" Parameter="totalDescuento" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TotalImpuesto" Parameter="totalImpuesto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Total" Parameter="total" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_creaFacturaResult">
+      <Column Name="IdFactura" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

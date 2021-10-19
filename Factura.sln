@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factura", "Factura\Factura.csproj", "{EF982390-402B-485E-B626-1833DD0FEB83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D4339B5E-7330-4A34-AA54-4B213A1F45B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{E71DD358-0A71-4271-867F-B6F461A16E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{3927D6BF-38EB-44C9-978A-1185B780D53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturaDto", "FacturaDto\FacturaDto.csproj", "{B81209CB-202C-421E-A1E6-42DA65D19196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturaDal", "FacturaDal\FacturaDal.csproj", "{C2B85F1A-3DD7-4020-B5C2-1E3CD9BAC0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturaBusiness", "FacturaBusiness\FacturaBusiness.csproj", "{5A76513E-AC33-4FA5-805E-46E65888EB26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF982390-402B-485E-B626-1833DD0FEB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF982390-402B-485E-B626-1833DD0FEB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF982390-402B-485E-B626-1833DD0FEB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF982390-402B-485E-B626-1833DD0FEB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81209CB-202C-421E-A1E6-42DA65D19196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81209CB-202C-421E-A1E6-42DA65D19196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81209CB-202C-421E-A1E6-42DA65D19196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81209CB-202C-421E-A1E6-42DA65D19196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B85F1A-3DD7-4020-B5C2-1E3CD9BAC0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B85F1A-3DD7-4020-B5C2-1E3CD9BAC0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B85F1A-3DD7-4020-B5C2-1E3CD9BAC0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B85F1A-3DD7-4020-B5C2-1E3CD9BAC0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A76513E-AC33-4FA5-805E-46E65888EB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A76513E-AC33-4FA5-805E-46E65888EB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A76513E-AC33-4FA5-805E-46E65888EB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A76513E-AC33-4FA5-805E-46E65888EB26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF982390-402B-485E-B626-1833DD0FEB83} = {3927D6BF-38EB-44C9-978A-1185B780D53D}
+		{B81209CB-202C-421E-A1E6-42DA65D19196} = {D4339B5E-7330-4A34-AA54-4B213A1F45B1}
+		{C2B85F1A-3DD7-4020-B5C2-1E3CD9BAC0C4} = {E71DD358-0A71-4271-867F-B6F461A16E88}
+		{5A76513E-AC33-4FA5-805E-46E65888EB26} = {E71DD358-0A71-4271-867F-B6F461A16E88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D56323D6-21C0-49B2-985D-7A5058E5B5D0}
+	EndGlobalSection
+EndGlobal

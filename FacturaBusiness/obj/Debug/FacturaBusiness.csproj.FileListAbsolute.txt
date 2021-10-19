@@ -1,0 +1,23 @@
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\bin\Debug\FacturaBusiness.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\bin\Debug\FacturaBusiness.pdb
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\bin\Debug\FacturaDal.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\bin\Debug\FacturaDto.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\bin\Debug\FacturaDal.pdb
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\bin\Debug\FacturaDal.dll.config
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\bin\Debug\FacturaDto.pdb
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.csproj.AssemblyReference.cache
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.csproj.CoreCompileInputs.cache
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.csproj.CopyComplete
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Debug\FacturaBusiness.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Debug\FacturaBusiness.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Debug\FacturaDal.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Debug\FacturaDto.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Debug\FacturaDal.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Debug\FacturaDal.dll.config
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\bin\Debug\FacturaDto.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.csprojAssemblyReference.cache
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.csproj.CopyComplete
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaBusiness\obj\Debug\FacturaBusiness.pdb

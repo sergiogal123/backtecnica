@@ -1,0 +1,27 @@
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\FacturaDal.dll.config
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\FacturaDal.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\FacturaDal.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.SqlServer.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\FacturaDto.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\FacturaDto.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.xml
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.SqlServer.xml
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.csprojAssemblyReference.cache
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.csproj.CopyComplete
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\FacturaDal.dll.config
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\FacturaDal.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\FacturaDal.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\FacturaDto.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\FacturaDto.pdb
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.xml
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.csproj.AssemblyReference.cache
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.csproj.CoreCompileInputs.cache
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.csproj.CopyComplete
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.dll
+C:\Users\shgalvis\Documents\Proyectos\Prueba\Factura\FacturaDal\obj\Release\FacturaDal.pdb

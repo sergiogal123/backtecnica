@@ -1,0 +1,27 @@
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\FacturaDal.dll.config
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\FacturaDal.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\FacturaDal.pdb
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\EntityFramework.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\FacturaDto.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\FacturaDto.pdb
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\EntityFramework.xml
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\obj\Debug\FacturaDal.csproj.AssemblyReference.cache
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\obj\Debug\FacturaDal.csproj.CoreCompileInputs.cache
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\obj\Debug\FacturaDal.csproj.CopyComplete
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\obj\Debug\FacturaDal.dll
+C:\Users\shgalvis\source\repos\Factura\FacturaDal\obj\Debug\FacturaDal.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\FacturaDal.dll.config
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\FacturaDal.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\FacturaDal.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\EntityFramework.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\EntityFramework.SqlServer.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\FacturaDto.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\FacturaDto.pdb
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\EntityFramework.xml
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\bin\Debug\EntityFramework.SqlServer.xml
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Debug\FacturaDal.csprojAssemblyReference.cache
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Debug\FacturaDal.csproj.CopyComplete
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Debug\FacturaDal.dll
+D:\Prueba sodexo\Prueba\Factura\FacturaDal\obj\Debug\FacturaDal.pdb
